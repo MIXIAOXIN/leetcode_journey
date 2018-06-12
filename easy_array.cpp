@@ -26,7 +26,7 @@ public:
 //时间复杂度：O(n),只需遍历一次数组                                          //
 //空间复杂度：O(n)，开辟新的map内存                                          //
 //**********************************************************************//
-     vector<int> twoSum_1(vector<int>& nums, int target)
+     vector<int> twoSum_2(vector<int>& nums, int target)
     {
         std::vector<int> solution(2,0);
         std::unordered_map<int, int> hash;
